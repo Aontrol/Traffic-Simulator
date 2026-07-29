@@ -1,8 +1,8 @@
 # Smart Traffic Simulator
 
-**Smart Traffic Simulator** is a **terminal-based traffic control simulation tool** built in **C** using the **ncurses** library. It simulates a traffic intersection where users can dynamically add vehicles and test smart traffic logic prioritizing the most congested routes — including handling emergency vehicles.
+**Traffic Simulator** is a **terminal-based traffic control simulation tool** built in **C** using the **ncurses** library. It simulates a traffic intersection where users can dynamically add vehicles and test smart traffic logic prioritizing the most congested routes — including handling emergency vehicles.
 
----
+
 
 ## Features
 
@@ -16,14 +16,12 @@
   * Per-route traffic density
 * Animated visual simulation of traffic moving through an intersection
 
----
 
 ## Requirements
 
 * GCC Compiler (`gcc`)
 * ncurses library
 
----
 
 ## Installation
 
@@ -34,15 +32,14 @@ sudo apt update
 sudo apt install build-essential libncurses5-dev libncursesw5-dev
 ```
 
----
 
 ## Build and Run
 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Aontrol/Smart-Traffic-Simulator
-cd Smart-Traffic-Simulator
+git clone https://github.com/Aontrol/Traffic-Simulator
+cd Traffic-Simulator
 ```
 
 ### 2. Compile the program
@@ -57,7 +54,6 @@ gcc traffic_simulator.c -lncurses -o traffic_simulator
 ./traffic_simulator
 ```
 
----
 
 ## Controls
 
@@ -74,7 +70,6 @@ gcc traffic_simulator.c -lncurses -o traffic_simulator
 | `s`            | Start simulation (clear traffic) |
 | `q`            | Quit the simulator               |
 
----
 
 ## Preview
 
